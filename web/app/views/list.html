@@ -1,0 +1,6 @@
+<div ng-controller="ListController" ng-repeat="movie in movies">
+    <h2>{{movie.title}} ({{movie.released}})</h2>
+    <p><strong>Director:</strong> {{movie.director}}</p>
+    <p>{{movie.description}}</p>
+</div>
+<p><a ng-href="#/movies/new">Add a new movie</a></p>
